@@ -1,7 +1,7 @@
 .basic-grid {
   display: grid;
+  /* Let's look at auto-fill vs. auto-fit */
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-template-rows: repeat(1, 1fr);
   gap: 16px;
 
   margin: 16px;
